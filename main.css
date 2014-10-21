@@ -1,0 +1,165 @@
+ 	/*The orginal colorand body tag*/
+		 body{background-color:tan;}
+		/*orginal color and visbilty*/
+		 p.first{color:tan;display:hidden;}
+			p.second{color:tan;display:hidden;}
+			p.third{color:tan; display:hidden;}
+			p.fourth{color:tan; display:hidden;}
+			p.fifth{color:tan; display:hidden;}
+			p.sixth{color:tan; display:hidden;}
+
+ 		/*<style>*/
+   /*Paragraph one at */
+				@media(min-width:320px){
+/* 				 p.first{ color: green; 
+	      					 	display:visible;}
+					*/
+						 p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color:lightpink; 
+						        display:visible;}
+						 p.third{ color:lightpink;
+						        display:visible;}
+						 p.fourth{ color:lightpink;
+						        display:visible;}
+							p.fifth{ color:lightpink;
+							       display:visible;}
+       p.sixth{ color:lightpink; 
+						        display:visible;}
+				 	body{background-color:lightpink;}
+
+				 }
+
+			/*Paragraph two at */
+				@media(min-width:420px){
+					/* p.first{ color: green; 
+						       	display:visible;}
+					 p.second{ color: pink; 
+			       			 display:visible;}
+					 body{background-color:orange;}*/
+      p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color:pink; 
+						        display:visible;}
+						 p.third{ color: orange;
+						        display:visible;}
+						 p.fourth{ color:orange;
+						        display:visible;}
+							p.fifth{ color:orange;
+							       display:visible;}
+       p.sixth{ color:orange; 
+						        display:visible;}
+					  body{background-color:orange;}
+
+	   	}
+   	/*Paragraph  three at */
+				@media(min-width:520px){
+					/*	p.first{ color: green; 
+						 	      display:visible;}
+						p.second{ color: pink; 
+						        display:visible;}
+						p.third{ color:orange;
+						        display:visible;}
+						body{background-color:purple;}*/
+       p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color: pink; 
+						        display:visible;}
+						 p.third{ color:orange;
+						        display:visible;}
+						 p.fourth{ color:purple;
+						        display:visible;}
+							p.fifth{ color:purple;
+							       display:visible;}
+       p.sixth{ color:purple; 
+						        display:visible;}
+      body{background-color:purple;}  
+				 }
+			
+			/*Paragraph four at */
+				@media(min-width:620px) and (max-width:1200px) {
+					 /*p.first{ color: green; 
+						       	display:visible;}
+						p.second{ color: pink; 
+						        display:visible;}
+						p.third{ color:orange;
+						        display:visible;}
+						p.fourth{ color:purple;
+						        display:visible;}
+				*/
+						 p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color: pink; 
+						        display:visible;}
+						 p.third{ color:orange;
+						        display:visible;}
+						 p.fourth{ color:purple;
+						        display:visible;}
+							p.fifth{ color:yellow;
+							       display:visible;}
+       p.sixth{ color:yellow; 
+						        display:visible;}
+						 body{background-color:yellow;}
+
+					}
+
+			/*Paragraph five at */
+				@media(min-width:720px) and (max-width:1200px) {
+					/* p.first{ color: green; 
+						      	display:visible;}
+					 p.second{ color: pink; 
+						       display:visible;}
+					 p.third{ color:orange;
+						       display:visible;}
+					 p.fourth{ color:purple;
+						       display:visible;}
+						p.fifth{ color:yellow;
+							      display:visible;}
+						body{background-color:blue;}*/
+						 p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color: pink; 
+						        display:visible;}
+						 p.third{ color:orange;
+						        display:visible;}
+						 p.fourth{ color:purple;
+						        display:visible;}
+							p.fifth{ color:yellow;
+							       display:visible;}
+       p.sixth{ color:blue; 
+						        display:visible;}
+						 body{background-color:blue;}
+						}
+
+				/*Paragraph six at */
+					@media(min-width:820px) {
+						/* p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color: pink; 
+						        display:visible;}
+						 p.third{ color:orange;
+						        display:visible;}
+						 p.fourth{ color:purple;
+						        display:visible;}
+							p.fifth{ color:yellow;
+							       display:visible;}
+       p.sixth{ color: blue; 
+						        display:visible;}
+						 body{background-color:tan; }*/
+						 	 p.first{ color: green; 
+						       	display:visible;}
+						 p.second{ color:pink; 
+						        display:visible;}
+						 p.third{ color:orange;
+						        display:visible;}
+						 p.fourth{ color:purple;
+						        display:visible;}
+							p.fifth{ color:yellow;
+							       display:visible;}
+       p.sixth{ color:blue; 
+						        display:visible;}
+					  body{background-color:tan;}
+						}
+
+
+/*</style>*/
