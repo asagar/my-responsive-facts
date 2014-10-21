@@ -10,8 +10,8 @@
 
  		/*<style>*/
    /*Paragraph one at */
-				@media(min-width:320px){
-/* 				 p.first{ color: green; 
+				@media(max-width:1100px){
+       /* 				 p.first{ color: green; 
 	      					 	display:visible;}
 					*/
 						 p.first{ color: green; 
@@ -31,7 +31,7 @@
 				 }
 
 			/*Paragraph two at */
-				@media(min-width:420px){
+				@media(max-width:920px){
 					/* p.first{ color: green; 
 						       	display:visible;}
 					 p.second{ color: pink; 
@@ -53,7 +53,8 @@
 
 	   	}
    	/*Paragraph  three at */
-				@media(min-width:520px){
+
+				@media(max-width:820px){
 					/*	p.first{ color: green; 
 						 	      display:visible;}
 						p.second{ color: pink; 
@@ -77,7 +78,7 @@
 				 }
 			
 			/*Paragraph four at */
-				@media(min-width:620px) and (max-width:1200px) {
+				@media(max-width:720px){
 					 /*p.first{ color: green; 
 						       	display:visible;}
 						p.second{ color: pink; 
@@ -103,8 +104,10 @@
 
 					}
 
+
+
 			/*Paragraph five at */
-				@media(min-width:720px) and (max-width:1200px) {
+				@media(max-width:620px){
 					/* p.first{ color: green; 
 						      	display:visible;}
 					 p.second{ color: pink; 
@@ -132,7 +135,8 @@
 						}
 
 				/*Paragraph six at */
-					@media(min-width:820px) {
+      /*(min-width:320px)and*/
+					@media(max-width:520px){
 						/* p.first{ color: green; 
 						       	display:visible;}
 						 p.second{ color: pink; 
